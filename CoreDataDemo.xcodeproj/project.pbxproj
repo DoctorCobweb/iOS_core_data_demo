@@ -18,6 +18,8 @@
 		65328F1D16D4875700D8A7DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65328F1C16D4875700D8A7DE /* Default@2x.png */; };
 		65328F1F16D4875700D8A7DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65328F1E16D4875700D8A7DE /* Default-568h@2x.png */; };
 		65328F2216D4875700D8A7DE /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65328F2016D4875700D8A7DE /* CoreDataDemo.xcdatamodeld */; };
+		65328F2B16D488F200D8A7DE /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65328F2916D488F200D8A7DE /* CoreDataViewController.m */; };
+		65328F2C16D488F200D8A7DE /* CoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65328F2A16D488F200D8A7DE /* CoreDataViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		65328F1C16D4875700D8A7DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		65328F1E16D4875700D8A7DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		65328F2116D4875700D8A7DE /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
+		65328F2816D488F200D8A7DE /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		65328F2916D488F200D8A7DE /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		65328F2A16D488F200D8A7DE /* CoreDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreDataViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,9 @@
 				65328F1716D4875700D8A7DE /* AppDelegate.h */,
 				65328F1816D4875700D8A7DE /* AppDelegate.m */,
 				65328F2016D4875700D8A7DE /* CoreDataDemo.xcdatamodeld */,
+				65328F2816D488F200D8A7DE /* CoreDataViewController.h */,
+				65328F2916D488F200D8A7DE /* CoreDataViewController.m */,
+				65328F2A16D488F200D8A7DE /* CoreDataViewController.xib */,
 				65328F0F16D4875700D8A7DE /* Supporting Files */,
 			);
 			path = CoreDataDemo;
@@ -161,6 +169,7 @@
 				65328F1B16D4875700D8A7DE /* Default.png in Resources */,
 				65328F1D16D4875700D8A7DE /* Default@2x.png in Resources */,
 				65328F1F16D4875700D8A7DE /* Default-568h@2x.png in Resources */,
+				65328F2C16D488F200D8A7DE /* CoreDataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				65328F1516D4875700D8A7DE /* main.m in Sources */,
 				65328F1916D4875700D8A7DE /* AppDelegate.m in Sources */,
 				65328F2216D4875700D8A7DE /* CoreDataDemo.xcdatamodeld in Sources */,
+				65328F2B16D488F200D8A7DE /* CoreDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
